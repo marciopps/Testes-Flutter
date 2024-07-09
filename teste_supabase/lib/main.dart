@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
 
       if (_counter == 1) {
-        //supabaseManager.writeNewData('name', 'Marzio');
+        supabaseManager.writeNewData('name', 'Marzio');
       }
 
       if (_counter == 2) {
